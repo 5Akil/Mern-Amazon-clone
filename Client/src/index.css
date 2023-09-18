@@ -1,0 +1,38 @@
+
+body {
+  background-color: rgb(234, 237, 237);
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;  
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.modal-backdrop{
+
+  z-index: -1;
+}
+
+.FormGroup {
+	border-style: none;
+	background-color: white;
+  border: 1px solid black;
+}
+
+.StripeElement--webkit-autofill {
+	background: transparent !important;
+}
+
+.StripeElement {
+	width: 100%;
+	padding: 4px 2px;
+  line-height: inherit;
+}
+

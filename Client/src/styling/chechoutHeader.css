@@ -1,0 +1,17 @@
+.checkoutHeader {
+    height: 50px;
+    position: relative;
+    text-align: center;
+    
+}
+
+.logo {
+    position: absolute;
+    left: 10px;
+    width: 6rem;
+    margin:  14px;
+}
+
+h4{
+padding: 10px;
+}

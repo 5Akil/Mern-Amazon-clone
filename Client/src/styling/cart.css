@@ -1,0 +1,135 @@
+.checkout_ad {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.checkout {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    min-height: 500px;
+}
+
+.checkout_title {
+    margin-right: 10px;
+    padding: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.checkoutProduct {
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+}
+
+.checkoutProduct_image {
+    object-fit: contain;
+    width: 180px;
+    height: 180px;
+}
+
+.checkoutProduct_info {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkoutProduct_info>button {
+    width: 170px;
+    padding: 5px 10px;
+    background-color: #FFD814;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.checkoutProduct_info>button:hover {
+    background: #F7CA00;
+    border-color: #F2C200;
+}
+
+.checkoutProduct_title {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.num-block {
+    display: block;
+}
+
+.btn .num-in {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+    height: 40px;
+    width: 110px;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.btn .num-in span {
+    width: 40%;
+    display: block;
+    height: 40px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.btn .num-in span:before,
+.btn .num-in span:after {
+    content: '';
+    position: absolute;
+    background-color: #667780;
+    height: 2px;
+    width: 10px;
+    top: 50%;
+    left: 50%;
+    margin-top: -1px;
+    margin-left: -5px;
+}
+
+.btn .num-in span.plus:after {
+    transform: rotate(90deg);
+}
+
+.btn .num-in .qty {
+    /* float: left; */
+    display: block;
+    margin: 12px;
+    width: 20%;
+    height: 35px;
+    border: none;
+    text-align: center;
+}
+
+h5 {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cart_btn {
+    border: 1px solid;
+    border-radius: 7px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.login_btn {
+    background: #FFD814;
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+@media(max-width:680px) {
+    .checkout {
+        flex-direction: column;
+        align-items: center;
+    }
+}
